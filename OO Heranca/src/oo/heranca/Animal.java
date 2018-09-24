@@ -9,7 +9,7 @@ package oo.heranca;
  *
  * @author ice
  */
-public class Animal {
+public abstract class Animal {
     protected int idade;
     protected String raça;
     protected String nome;
@@ -63,6 +63,15 @@ public class Animal {
         this.nome = nome;
     }
     
+    public boolean equals(Animal c2){
+        
+        return this.getNome().equals(c2.getNome());
+    }
+    
+    public String toString(){
+        
+        return this.getNome();
+    }
     
     
 }
