@@ -1,0 +1,12 @@
+unchecked exceptions 
+    -> exceções que nao precisam ser tratadas, divide by zero
+
+checked exceptions
+    -> exceções que são obrigadas a serem tratadas, erro abertura 
+
+
+
+throw
+    -> quem chamou o metodo trata a exceção.
+
+
