@@ -1,12 +1,61 @@
-unchecked exceptions 
-    -> exceções que nao precisam ser tratadas, divide by zero
+Oo
+classes
+-composta atributos(variaveis) e metodos(funções)
+ 
+objetos
+- corresponde a um estado da classe
+    ->valor dos atributos
 
-checked exceptions
-    -> exceções que são obrigadas a serem tratadas, erro abertura 
+ex:
+
+Sala de aula
+    -Aluno
+        -Nome,Matricula,Nota,IRA, -> assistirAula,chorarDeAlegria
+
+    -Professor
+    -Monitor
+    -Aula
+        -Nome da disciplina,Professor,Horario,[]Alunos, -> começarAula,darConteudo
+    -Computador
+
+Metodos estaticos
+-   comuma a todos os objetos instanciados
+
+this-> retorna instancia do objeto
+
+encapsulamento
+-   modificadores de acesso, private,public,protected, para proteger a informação
+
+pacotes
+-   organização de codigo
+
+tratamento exceção
+-   robustez,continua execução, trata determinado problemas
+    checked - nao obrigatorio, divide by zero
+    unchecked - obrigatorio, abrir arquivo
+
+herança
+-   Facilita reuso de codigo e manutenção. ->extends
+
+polimorfismo
+-   assumir varias formas,ou por herança ou por interface
+    
+    sobrecarga
+        -  mesmo nome porém muda parametro para o metodo,estatico, sabe o que vai ser usado pelo codigo(earlybending)
+
+    sobrescrita
+        -   classe pai-> classe filha, mesmo nome porem função diferente, identifica apenas em tempo de execução(latebending)
 
 
+interfaces
+-   herança abstrata ->implement
+    herança multipla    
 
-throw
-    -> quem chamou o metodo trata a exceção.
+classe abstrata
+    -forçar implemntação na classe filha.
+
+    ex:
+        Professor
+        humano p = new Professor();
 
 
